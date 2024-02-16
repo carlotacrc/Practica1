@@ -12,7 +12,7 @@ public class Principal {
 public static void main(String[] args){
     // Comprobar que se ha pasado un argumento.
     System.out.println("El número PI es " +
-        Matematicas.generarNumeroPiIterativo(Integer.parseInt(args[0])));
+        Matematicas.generarNumeroPiIterativo(1000000));
     }
 
 }
